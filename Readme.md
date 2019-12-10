@@ -8,8 +8,8 @@ Listening on the end point /graphql, ports configured in the appsettings.json
 
 ## Example Queries
 
-graphql?Query={ jedi(id: 1) { name } }
-graphql?Query={ jedis { name, side } }
+* graphql?Query={ jedi(id: 1) { name } }
+* graphql?Query={ jedis { name, side } }
 
 ## Reference:
 https://dev.to/dotnet/learn-how-you-can-use-graphql-in-net-core-and-c-4h96
