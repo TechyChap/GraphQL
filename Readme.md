@@ -8,6 +8,16 @@ Listening on the end point /graphql, ports configured in the appsettings.json
 
 Uses the [Graphql Dot Net](https://github.com/graphql-dotnet/graphql-dotnet) package and [server](https://github.com/graphql-dotnet/server) package
 
+## Setup
+
+I used the following to create the basic framework and then edited based on the examples linked below.
+
+    dotnet new sln
+    dotnet new web --name App
+    cd App
+    dotnet add package GraphQL
+    dotnet add package GraphQL.Server.Transports.AspNetCore
+
 ## Example Queries
 
 * graphql?Query={ jedis { name, side } }
